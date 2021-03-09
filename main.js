@@ -6,9 +6,13 @@ function isEvenlyDivisible(num1, num2) {
 	}
 }
 
+// ---------------------------------------------
+
 function halfSquare(num) {
 	return (num * num) / 2;
 }
+
+// ---------------------------------------------
 
 function isLong(str) {
 	if (str.length >= 15) {
@@ -17,6 +21,8 @@ function isLong(str) {
 		return false;
 	}
 }
+
+// ---------------------------------------------
 
 function exclaim(str) {
 	if (str.indexOf("!") === -1) {
@@ -29,6 +35,8 @@ function exclaim(str) {
 	}
 }
 
+// ---------------------------------------------
+
 function countWords(str) {
 	let wordCount = 1;
 	for (i = 0; i < str.length; i++) {
@@ -38,6 +46,8 @@ function countWords(str) {
 	}
 	return wordCount;
 }
+
+// ---------------------------------------------
 
 function containsDigit(str) {
 	numDigits = 0;
@@ -63,6 +73,8 @@ function containsDigit(str) {
 		return true;
 	}
 }
+
+// ---------------------------------------------
 
 function containsLowerCase(str) {
 	numLowers = 0;
@@ -105,6 +117,8 @@ function containsLowerCase(str) {
 	}
 }
 
+// ---------------------------------------------
+
 function containsUpperCase(str) {
 	numUppers = 0;
 	for (i = 0; i < str.length; i++) {
@@ -146,6 +160,8 @@ function containsUpperCase(str) {
 	}
 }
 
+// ---------------------------------------------
+
 function containsNonAlphanumeric(str) {
 	numLowers = 0;
 	for (i = 0; i < str.length; i++) {
@@ -173,6 +189,8 @@ function containsNonAlphanumeric(str) {
 	}
 }
 
+// ---------------------------------------------
+
 function containsSpace(str) {
 	numSpaces = 0;
 	for (i = 0; i < str.length; i++) {
@@ -186,6 +204,8 @@ function containsSpace(str) {
 		return true;
 	}
 }
+
+// ---------------------------------------------
 
 function digits(num) {
 	arr = [];
@@ -201,6 +221,8 @@ function digits(num) {
 	return arr;
 }
 
+// ---------------------------------------------
+
 function truncate(str) {
 	newStr = "";
 	if (str.length >= 15) {
@@ -214,6 +236,8 @@ function truncate(str) {
 		return str;
 	}
 }
+
+// ---------------------------------------------
 
 function isValidPassword(str) {
 	if (
@@ -229,6 +253,8 @@ function isValidPassword(str) {
 	}
 }
 
+// ---------------------------------------------
+
 function onlyPunchy(arr) {
 	newArr = [];
 	for (title of arr) {
@@ -238,6 +264,8 @@ function onlyPunchy(arr) {
 	}
 	return newArr;
 }
+
+// ---------------------------------------------
 
 module.exports = {
 	isEvenlyDivisible,
